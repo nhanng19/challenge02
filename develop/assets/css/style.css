@@ -55,7 +55,7 @@ li {
 
 body{
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-	background-image: url("challenge02/develop/assets/css/background.jpg");
+	background-image: url("./background.jpg");
 }
 h1{
 	font-size:40px;
