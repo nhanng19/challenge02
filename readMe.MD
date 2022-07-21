@@ -64,7 +64,7 @@ Navigation bar's position is fixed while scrolling through the page
 Wrap ID to fit all content in a smaller frame, added background image
 Changed position, font style, font color, and font size of specific id and classes
 Added animation for the web application section when users hover over an image
-Added Social Media buttions
+Added Social Media buttons
 ```
 
 ## The Result
