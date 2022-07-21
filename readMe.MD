@@ -1,4 +1,4 @@
-# 01_Code_Refactor_NN
+# 02_Advanced_CSS_Portfolio_NN
 BootCamp Homework - 02 Advanced CSS: Portfolio
 
 ## The Challenge
@@ -8,6 +8,7 @@ Many employers expect coding portfolios from candidates and may actively search 
 Portfolios demonstrate how candidates think and how well they can code. 
 Coding portfolios also provide insight into a coder's creativity and attention to detail.
 We're going to design a portfolio using our current knowledge of HTML and CSS to  deploy a web application like the one below. 
+
 ![](./develop/assets/images/screenshot.png)
 
 ## User Story
@@ -37,84 +38,41 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ``` 
 
 ## The Process
-To satisfy our client's needs, we had to:
+To satisfy the criteria, we had to:
 - Identify a proper semantic structure for the HTML and CSS file
 - Provide descriptive comments for each section of the HTML and CSS file
-- Modify the HTML and CSS file in a way that would fit a proper semantic structure
-- Combine multiple rules into one rule
+- Apply functional links to the portfolio
+- Provide relevation informations of the candidate
+- Modify the CSS file so that the web applciation can fit any screen size
 
-Specific modifications to the HTML file
+Specific sections of the HTML file
 
 ```
-Changed title to company's name for Page's title
-Changed div to header for Page's Header
-Changed div to main for Page's Main Content
-Changed div to aside for Page's Additional Content
-Changed div to footer for Page's Footer
-Include alt properties with related description for each image 
-Added an id for search-engine-optimization so that the web application would scroll down when users click it
+Functional navigation bar that users can interface with to scroll 
+About me section describing the candidate along with a headshot
+Experience section demonstrating candidate's work history
+Lines to seperate sections
+Web application sections showcasing candidate's previous projects
+Contact section where users can find candidate's social media accounts
+Footer to close off the page
 ```
 
 Specific modifications to the CSS file
 
 ```
-Added structural comment for each section of the HTML file
-Rearrange some rules to fit a proper semantic structure
-Simplified multiple rules into one rule:
-
-#search-engine-optimization,
-#online-reputation-management,
-#social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-#search-engine-optimization img,
-#online-reputation-management img,
-#social-media-marketing img {
-    max-height: 200px;
-}
-
-#search-engine-optimization h2,
-#online-reputation-management h2,
-#social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-#benefit-lead,
-#benefit-brand,
-#benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-#benefit-lead h3,
-#benefit-brand h3,
-#benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-#benefit-lead img,
-#benefit-brand img,
-#benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
+Navigation bar's position is fixed while scrolling through the page
+Wrap ID to fit all content in a smaller frame, added background image
+Changed position, font style, font color, and font size of specific id and classes
+Added animation for the web application section when users hover over an image
+Added Social Media buttions
 ```
 
 ## The Result
-After refractoring the existing code, we were able to provide an accessible, efficient, and stuctured project for our client. 
+After dynamically coding the HTML and CSS file together, we were able to provide an engaging, efficient, and stuctured web application that showcases our portfolio.
 
 ## Submission
 This project was uploaded to GitHub at the following respository link:
-[https://github.com/nhanng19/challenge01](https://github.com/nhanng19/challenge01)
+[https://github.com/nhanng19/challenge02](https://github.com/nhanng19/challenge02)
 
 Depolyed Web Application Link:
-[https://nhanng19.github.io/challenge01/develop/index](https://nhanng19.github.io/challenge01/develop/index)
+[https://nhanng19.github.io/challenge02/develop/index](https://nhanng19.github.io/challenge02/develop/index)
