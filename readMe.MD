@@ -72,7 +72,7 @@ After dynamically coding the HTML and CSS file together, we were able to provide
 
 ## Submission
 This project was uploaded to GitHub at the following respository link:
-[https://github.com/nhanng19/challenge02](https://github.com/nhanng19/challenge02)
+[https://github.com/nhanng19/css_portfolio](https://github.com/nhanng19/css_portfolio)
 
 Deployed Web Application Link:
-[https://nhanng19.github.io/challenge02/develop/index](https://nhanng19.github.io/challenge02/develop/index)
+[https://nhanng19.github.io/css_portfolio/develop/index](https://nhanng19.github.io/css_portfolio/develop/index)
