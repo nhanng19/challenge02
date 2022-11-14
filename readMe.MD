@@ -1,5 +1,5 @@
 # 02_Advanced_CSS_Portfolio_NN
-BootCamp Homework - 02 Advanced CSS: Portfolio
+Advanced CSS: Portfolio
 
 ## The Challenge
 Coding professionals across the industry, including data scientists, web developers, and software engineers, need coding portfolios. 
